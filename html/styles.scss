@@ -1,0 +1,225 @@
+/*-- scss:defaults --*/
+
+/* From https://github.com/andrewheiss/ath-quarto/blob/main/html/ath.scss */
+
+$white:    #ffffff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #373a3c !default;
+$gray-900: #212529 !default;
+$black:    #000000 !default;
+
+$blue:    #2780e3 !default;
+$indigo:  #6610f2 !default;
+$purple:  #170C3A !default;
+$pink:    #A52C60 !default;
+$red:     #CF4446 !default;
+$orange:  #EE6A24 !default;
+$light-orange:  #FB9E07 !default;
+$yellow:  #F6D645 !default;
+$green:   #118230 !default;
+$teal:    #068194 !default;
+$cyan:    #3093CF !default;
+$darkred: #990000 !default;
+$navy:    #011F5B !default;
+
+$primary:   $darkred!default;
+$secondary: $gray-700 !default;
+$success:   $green !default;
+$info:      $cyan !default;
+$warning:   $orange !default;
+$danger:    $red !default;
+$light:     $gray-400 !default;
+$dark:      $black !default;
+
+
+
+// Links
+$link-color: $primary !default;
+$link-decoration: none !default;
+$link-hover-color: $red !default;
+$link-hover-decoration: underline !default;
+
+// Footer
+$footer-bg: $gray-900 !default;
+$footer-fg: $gray-300 !default;
+
+// Inline code
+$code-bg: $gray-200 !default;
+$code-color: $gray-900 !default;
+
+// TOC
+$toc-color: $orange;
+$toc-font-size: 1em;
+
+// Code copy
+$btn-code-copy-color-active: $orange !default;
+
+
+/*-- scss:rules --*/
+
+
+.nav-footer {
+    align-items: flex-start;  // Align all flex items to the top
+    flex-wrap: wrap;
+    border: 0 !important;
+    min-height: 3em;
+    //font-family: $footer-font-family;
+
+    a {
+        color: $primary;
+    }
+
+    .faux-block {
+        display: block;
+        padding-bottom: 0.4em;
+    }
+
+    // In the default Quarto template, .nav-footer-center has position: absolute 
+    // turned on, which makes the div not be a flex item
+    // This changes that so that it *is* a flex item
+    .nav-footer-center {
+        text-align: center;
+        position: inherit;
+        margin-top: 0;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            margin-top: 0.5em;
+            margin-bottom: 1.5em;
+        }
+    }
+
+    // When the screen is medium or smaller, make each footer chunk be 100% width 
+    // and centered; otherwise make them be 33% width and left/right/centerd
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center {
+        text-align: center;
+        width: 100%;
+        min-height: 2em;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        .nav-footer-left {
+            text-align: left;
+        }
+
+        .nav-footer-right {
+            text-align: right;
+        }
+
+        .nav-footer-left,
+        .nav-footer-right,
+        .nav-footer-center {
+            flex: 1 1 33%;
+        }
+    }
+}
+
+a.badge.badge-red {
+  color: #fff;
+}
+
+a.badge.badge-blue {
+  color: #fff;
+}
+
+a.badge.badge-green {
+  color: #fff;
+}
+
+.badge-large {
+  font-size: 18px !important;
+  text-transform: none !important;
+  padding: 5px 5px 3px 5px;
+  text-transform: none;
+  font-family: $font-family-sans-serif;
+}
+
+.badge {
+  font-family: $font-family-sans-serif;
+}
+
+.label,
+.badge {
+  background: darken($gray-100,10%);
+  font-size: 12.75px;
+  display: inline-block;
+  line-height: 1;
+  padding: 4px 7px 3px 7px;
+  color: $primary;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.label-outline {
+  background: none;
+  border: 1px solid $primary;
+  padding: 3px 6px 2px 6px;
+}
+
+.badge {
+  border-radius: 15px;
+  opacity: .75;
+}
+
+.badge-small {
+  font-size: 11.25px;
+  padding: 5px 5px 3px 5px;
+}
+
+.badge:hover {
+  opacity: 1;
+}
+
+.label-black,
+.label-blue,
+.label-red,
+.label-green,
+.badge-black,
+.badge-blue,
+.badge-red,
+.badge-green {
+  color: #ffffff !important;
+}
+
+.label-black,
+.badge-black {
+  background: #0f0f0f;
+}
+
+.label-blue,
+.badge-blue {
+  background: #4673B8;
+}
+
+.label-red,
+.badge-red {
+  background: #BD666D;
+}
+
+.label-green,
+.badge-green {
+  background: #2c9f42;
+}
+
+.label-yellow,
+.badge-yellow {
+  background: #ffc800;
+}
+
+.label-white,
+.badge-white {
+  background: #ffffff;
+}
+
+.label-grey,
+.badge-grey {
+  background: #cccccc;
+}

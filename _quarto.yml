@@ -1,0 +1,76 @@
+# This file controls the settings for your Quarto template from www.marvinschmitt.com
+
+# website settings
+website:
+  title: "Edward Gunning"                                # Your name
+  description: "Data Scientist and Statistician"   # A brief slogan (optional)
+  image: img/my_image.jpg
+  favicon: img/stat_icon.png
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    logo: /img/stat_icon.png
+    
+    # your sub-pages
+    left:
+      - text: "Research"
+        href: projects/index.qmd
+      - text: "Teaching"
+        href: teaching/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
+    
+    # your social media handles
+    right:
+      - icon: twitter
+        href: https://twitter.com/gunning_edward
+      - text: "{{< ai google-scholar size=lg >}}"
+        href: https://scholar.google.com/citations?hl=en&user=R9NHmz4AAAAJ
+      - icon: linkedin
+        href: https://www.linkedin.com/in/edwardgunning1/
+      - icon: github
+        href: https://github.com/edwardgunning
+      - icon: envelope
+        aria-label: email
+        href: "mailto:edward.gunning@ul.ie"
+  
+  
+
+# Don't touch unless you know what you are doing :) ------------
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: |
+      <span class="faux-block">&#169; 2023 Edward Gunning CC BY-SA 4.0</span>
+    center: |
+      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
+    right: |
+      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.1em
+    theme: 
+      - pulse
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true

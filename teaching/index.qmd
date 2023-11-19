@@ -1,0 +1,36 @@
+---
+pagetitle: Teaching
+---
+
+I have a strong interest in teaching mathematics, (bio)statistics and data science. Below is a list of the modules I have lectured or tutored. 
+
+
+---------------------------------------------------------
+
+### Lecturer
+
+* [**ST4001 Biostatistics II**](https://ucc-ie-public.courseleaf.com/modules/?details&srcdb=2023&code=ST4001) University College Cork, Winter 2023-2024
+
+---------------------------------------------------------
+
+### Tutor/ Demonstrator
+
+* [**MA5021 Data Analytics with R**](https://bookofmodules.ul.ie/Default.aspx?ModuleCodeParameter=%7CMA5021%7C) University of Limerick, Spring 2021-2022
+
+* [**MA4128 Advanced Data Modelling**](https://bookofmodules.ul.ie/Default.aspx?ModuleCodeParameter=%7CMA4128%7C) University of Limerick, Spring 2021-2022
+
+* [**MA4007 Experimental Design**](https://bookofmodules.ul.ie/Default.aspx?ModuleCodeParameter=%7CMA4007%7C) University of Limerick, Winter 2021-2022 & 2022-2023
+
+* [**MS4222 Introduction to Probability and Statistics**](https://bookofmodules.ul.ie/Default.aspx?ModuleCodeParameter=%7CMS4222%7C) University of Limerick, Spring 2020-2021
+
+* [**MA4704/MA4413 Technological Mathematics 4**](https://bookofmodules.ul.ie/Default.aspx?ModuleCodeParameter=%7CMA4704%7C) University of Limerick, Spring 2019-2020
+
+* [**MA4701 Technological Mathematics 1**](https://bookofmodules.ul.ie/Default.aspx?ModuleCodeParameter=%7CMA4701%7C) University of Limerick, Winter 2019-2020 & 2020-2021
+
+* [**MA1002 Calculus for Science II**](https://ucc-ie-public.courseleaf.com/modules/?details&srcdb=2023&code=MA1002) University College Cork, Spring 2018-2019
+
+* [**MA1001 Calculus for Science I**](https://ucc-ie-public.courseleaf.com/modules/?details&srcdb=2023&code=MA1001) University College Cork, Winter 2018-2019 
+
+
+---------------------------------------------------------
+

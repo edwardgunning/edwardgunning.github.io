@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "projects/synthetic-data/index.html",
+    "href": "projects/synthetic-data/index.html",
+    "title": "Unlocking sports medicine research data while maintaining participant privacy via synthetic datasets",
+    "section": "",
+    "text": "Happ and Greven (2018) developed a methodology for principal components analysis of multivariate functional data for data observed on different dimensional domains. Their approach relies on an estimation of univariate functional principal components for each univariate functional feature. In this paper, we present extensive simulations to investigate choosing the number of principal components to retain. We show empirically that the conventional approach of using a percentage of variance explained threshold for each univariate functional feature may be unreliable when aiming to explain an overall percentage of variance in the multivariate functional data, and thus we advise practitioners to be careful when using it."
+  },
+  {
+    "objectID": "projects/phd/index.html",
+    "href": "projects/phd/index.html",
+    "title": "Statistical Modelling of Second-Generation Functional Data with Application in Biomechanics and Human Movement Research",
+    "section": "",
+    "text": "Functional data analysis is a branch of statistics that is well suited to the analysis of continuous biomechanical data, e.g., kinematics or kinetics that are recorded throughout a movement, because it treats the measured data streams as smooth, time-varying functions. Traditional functional data analysis tools have been developed for independent, univariate samples of functional data, so they are not flexible enough to fully leverage the richness of modern biomechanical datasets. There is a growing need to adapt and extend these tools to modern data structures and characteristics. To address this challenge, this thesis develops new statistical approaches for structured functional data, as motivated by a large study on running-related injuries, where kinematic data from recreational runners were captured during a treadmill run with the goal of understanding running technique and its links to injury. The motivating biomechanical dataset is rich in size and structure as it contains repeated measurements of multiple kinematic variables from a large number of individuals. Thus, it presents methodological and computational challenges and facilitates the development of novel statistical methodology that is generally applicable in a variety of fields.\nThe first challenge addressed in this thesis is the development of multivariate functional mixed effects modelling techniques, to allow the kinematic data from multiple body parts (e.g., hip and knee) to be analysed simultaneously. The mixed effects modelling framework readily incorporates covariate information and facilitates appropriate modelling of the complex dependence structure between observations from each individual (i.e., each individual has multiple repetitions of the movement/strides, measurements are made on both sides of the body). This work is divided into two sequential contributions. Firstly, a multivariate functional mixed effects model is developed for a subset of the motivating dataset, which contains average hip angle and knee angle curves for each individual on either side of the body. As the second contribution, the modelling framework is extended to handle the full collection of strides in the motivating dataset, resulting in a multivariate multilevel longitudinal functional model which uses a longitudinal functional data analysis approach to capture temporal dependence among the adjacent strides.\nThe second challenge addressed in this thesis is the estimation of continuous-time ordinary differential equations from functional data. A re-formulation of Principal Differential Analysis, a classical technique for estimating differential equations from functional data, is developed. The new formulation is based on a generative statistical model, providing a better understanding of the technique from a statistical perspective and broadening its applicability. The methodology is demonstrated on simulated data from ordinary differential equation models and on a subset of kinematic data from the motivating dataset for this thesis."
+  },
+  {
+    "objectID": "projects/variance-mfpca/index.html",
+    "href": "projects/variance-mfpca/index.html",
+    "title": "On the estimation of the number of components in multivariate functional principal component analysis",
+    "section": "",
+    "text": "Happ and Greven (2018) developed a methodology for principal components analysis of multivariate functional data for data observed on different dimensional domains. Their approach relies on an estimation of univariate functional principal components for each univariate functional feature. In this paper, we present extensive simulations to investigate choosing the number of principal components to retain. We show empirically that the conventional approach of using a percentage of variance explained threshold for each univariate functional feature may be unreliable when aiming to explain an overall percentage of variance in the multivariate functional data, and thus we advise practitioners to be careful when using it."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Edward Gunning",
+    "section": "",
+    "text": "Google Scholar    Research Gate"
+  },
+  {
+    "objectID": "projects/index.html#papers",
+    "href": "projects/index.html#papers",
+    "title": "Edward Gunning",
+    "section": "Papers",
+    "text": "Papers"
+  },
+  {
+    "objectID": "projects/pca-of-waveforms/index.html",
+    "href": "projects/pca-of-waveforms/index.html",
+    "title": "PCA of waveforms and functional PCA: A primer for biomechanics",
+    "section": "",
+    "text": "Principal components analysis (PCA) of waveforms and functional PCA (fPCA) are statistical approaches used to explore patterns of variability in biomechanical curve data, with fPCA being an accepted statistical method grounded within the functional data analysis (FDA) statistical framework. This technical note demonstrates that PCA of waveforms is the most rudimentary form of FDA, and consequently can be rationalised within the FDA framework of statistical processes. Mathematical proofing applied demonstrations of both techniques, and an example of when fPCA may be of greater benefit to control over smoothing of functional principal components is provided using an open access motion sickness dataset. Finally, open access software is provided with this paper as means of priming the biomechanics community for using these methods as a part of future functional data explorations."
+  },
+  {
+    "objectID": "projects/gram-matrix/index.html",
+    "href": "projects/gram-matrix/index.html",
+    "title": "On the use of the Gram matrix for multivariate functional principal components analysis",
+    "section": "",
+    "text": "Dimension reduction is crucial in functional data analysis (FDA). The key tool to reduce the dimension of the data is functional principal component analysis. Existing approaches for functional principal component analysis usually involve the diagonalization of the covariance operator. With the increasing size and complexity of functional datasets, estimating the covariance operator has become more challenging. Therefore, there is a growing need for efficient methodologies to estimate the eigencomponents. Using the duality of the space of observations and the space of functional features, we propose to use the inner-product between the curves to estimate the eigenelements of multivariate and multidimensional functional datasets. The relationship between the eigenelements of the covariance operator and those of the inner-product matrix is established. We explore the application of these methodologies in several FDA settings and provide general guidance on their usability."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Edward Gunning",
+    "section": "",
+    "text": "About Me\nI recently completed my Ph.D. in the Dept. of Mathematics and Statistics at the University of Limerick, Ireland, where I was part of the SFI Centre for Research Training in Foundations of Data Science. I was advised by Prof. Norma Bargary and my thesis was titled ‘Statistical Modelling of Second-Generation Functional Data with Application in Biomechanics and Human Movement Research’. It should be available on the UL Library soon."
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Edward Gunning",
+    "section": "",
+    "text": "Lecturer\n\nST4001 Biostatistics II University College Cork, Winter 2023-2024\n\n\n\n\nTutor/ Demonstrator\n\nMA5021 Data Analytics with R University of Limerick, Spring 2021-2022\nMA4128 Advanced Data Modelling University of Limerick, Spring 2021-2022\nMA4007 Experimental Design University of Limerick, Winter 2021-2022 & 2022-2023\nMS4222 Introduction to Probability and Statistics University of Limerick, Spring 2020-2021\nMA4704/MA4413 Technological Mathematics 4 University of Limerick, Spring 2019-2020\nMA4701 Technological Mathematics 1 University of Limerick, Winter 2019-2020 & 2020-2021\nMA1002 Calculus for Science II University College Cork, Spring 2018-2019\nMA1001 Calculus for Science I University College Cork, Winter 2018-2019"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download current CV"
+  },
+  {
+    "objectID": "cv/index.html#short-biosketch",
+    "href": "cv/index.html#short-biosketch",
+    "title": "Curriculum vitae",
+    "section": "Short Biosketch",
+    "text": "Short Biosketch\n\nView the tutorial for this template (+ download link)"
+  }
+]

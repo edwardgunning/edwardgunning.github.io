@@ -1,0 +1,42 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/me-writing.jpg"
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/gunning_edward
+    - text: "{{< ai google-scholar size=lg >}} Google Scholar"
+      href: https://scholar.google.com/citations?hl=en&user=R9NHmz4AAAAJ
+    - icon: github
+      text: Github
+      href: https://github.com/edwardgunning
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/edwardgunning1/
+    - icon: envelope
+      text: Email
+      href: "mailto:edward.gunning@ul.ie"  
+---
+
+::: {#about-block}
+:::
+
+# About Me
+
+I recently completed my Ph.D. in the Dept. of Mathematics and Statistics at the [University of Limerick](https://www.ul.ie/), Ireland, where I was part of the [SFI Centre for Research Training in Foundations of Data Science](https://www.data-science.ie/).
+I was advised by [Prof. Norma Bargary](https://www.ul.ie/research/dr-norma-bargary) and my thesis was titled 'Statistical Modelling of Second-Generation Functional Data with Application in Biomechanics and Human Movement Research'. It should be available on the [UL Library](https://researchrepository.ul.ie/) soon.
+
+<!-- # Research -->
+
+<!-- * Add research interests here. -->
+
+
+
+<!-- ```{=html} -->
+<!-- <div  style="margin: 30px; text-align: center;"> -->
+<!-- <a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a> -->
+<!-- </div> -->
+<!-- ``` -->
+

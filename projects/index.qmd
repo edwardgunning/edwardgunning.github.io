@@ -1,0 +1,27 @@
+---
+pagetitle: "Edward Gunning - Publications"
+listing:
+  contents: "."
+  template: pubs.ejs
+  sort: "date desc"
+  feed:
+    title: "Publications by Edward Gunning"
+    description: "Working papers and published articles by by Edward Gunning"
+  categories: true
+  sort-ui: false
+  filter-ui: [date, title, author, details]
+  date-format: "YYYY"
+  page-size: 999
+sidebar: false
+page-layout: full
+title-block-banner: false
+language:
+  listing-page-field-categories: "Type"
+---
+
+[Google Scholar &nbsp; {{< ai google-scholar >}}](https://scholar.google.com/citations?hl=en&user=R9NHmz4AAAAJ){.badge .badge-large}
+[Research Gate &nbsp; {{< ai researchgate >}}](https://www.researchgate.net/profile/Edward-Gunning){.badge .badge-large}
+
+----------------------------------------------------------------------------------------------------
+
+## Papers
