@@ -8,6 +8,7 @@ status: Published
 categories: PhD thesis
 # file: PhDThesis.pdf
 details: "PhD thesis, University of Limerick"
+doi: 10.34961/researchrepository-ul.24948066.v1
 tag:
 - functional data analysis
 ---

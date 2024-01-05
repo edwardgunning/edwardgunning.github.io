@@ -20,13 +20,16 @@ about:
       href: "mailto:edward.gunning@ul.ie"  
 ---
 
+
 ::: {#about-block}
 :::
 
 # About Me
 
-I recently completed my Ph.D. in the Dept. of Mathematics and Statistics at the [University of Limerick](https://www.ul.ie/), Ireland, where I was part of the [SFI Centre for Research Training in Foundations of Data Science](https://www.data-science.ie/).
-I was advised by [Prof. Norma Bargary](https://www.ul.ie/research/dr-norma-bargary) and my thesis was titled 'Statistical Modelling of Second-Generation Functional Data with Application in Biomechanics and Human Movement Research'. It should be available on the [UL Library](https://researchrepository.ul.ie/) soon.
+I am a postdoctoral researcher at the Department of Biostatistics, Epidemiology and Informatics in the Perelman School of Medicine at the University of Pennsylvania. I am mentored by [Prof. Jeffrey Morris](https://www.dbei.med.upenn.edu/bio/jeffrey-s-morris-phd) and [Prof. Giles Hooker](https://www.gileshooker.com/). My postdoctoral research is in the development of functional data analysis methodology, driven by applications in the biomedical sciences (e.g., wearable device data, radiomic data and climate data).
+
+I completed my Ph.D. in the Dept. of Mathematics and Statistics at the [University of Limerick](https://www.ul.ie/), Ireland, where I was part of the [SFI Centre for Research Training in Foundations of Data Science](https://www.data-science.ie/).
+I was advised by [Prof. Norma Bargary](https://www.ul.ie/research/dr-norma-bargary) and my thesis was titled 'Statistical Modelling of Second-Generation Functional Data with Application in Biomechanics and Human Movement Research'.
 
 <!-- # Research -->
 
