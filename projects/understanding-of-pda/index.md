@@ -1,6 +1,6 @@
 ---
 title: "An Understanding of Principal Differential Analysis"
-date: "2023-06-22"
+date: "2024-06-27"
 author: <b>Edward Gunning</b>, Giles Hooker
 arxiv: 
 github: edwardgunning/UnderstandingOfPDAManuscript
