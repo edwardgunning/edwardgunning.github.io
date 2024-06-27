@@ -2,7 +2,7 @@
 title: "An Understanding of Principal Differential Analysis"
 date: "2024-06-27"
 author: <b>Edward Gunning</b>, Giles Hooker
-arxiv: 
+arxiv: 2406.18484
 github: edwardgunning/UnderstandingOfPDAManuscript
 categories: Working papers
 ---
