@@ -2,8 +2,13 @@
 pagetitle: Teaching
 ---
 
-I have a strong interest in teaching mathematics, (bio)statistics and data science. Below is a list of the modules I have lectured or tutored. 
+I have a strong interest in teaching mathematics, (bio)statistics and data science. Below is a list of the courses and modules I have lectured or tutored. 
 
+---------------------------------------------------------
+
+### Short Courses
+
+* [**ISBS 2024**](https://www.isbs2024.com/): I am delivering a pre-conference workshop on **Functional Data Analysis in Sports Biomechanics** at [ISBS 2024](https://www.isbs2024.com/) on July $15$th $2024$ in Salzburg with Prof. Drew Harrison. The materials are available at our [workshop website](https://github.com/edwardgunning/ISBS-Short-Course).
 
 ---------------------------------------------------------
 
