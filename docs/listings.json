@@ -2,6 +2,9 @@
   {
     "listing": "/projects/index.html",
     "items": [
+      "/projects/review-book/index.html",
+      "/projects/multivariate-multilevel/index.html",
+      "/projects/analysing-kinematic/index.html",
       "/projects/understanding-of-pda/index.html",
       "/projects/phd/index.html",
       "/projects/variance-mfpca/index.html",

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.189">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -49,7 +49,12 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -58,8 +63,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -72,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-format','listing-sidebar','listing-author-title','listing-title','listing-date','listing-author','listing-sportrxiv','listing-doi','listing-categories','listing-path','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-Status','listing-slug','listing-status','listing-details','listing-tag','listing-arxiv','listing-github','listing-tags',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-website','listing-project','listing-execute','listing-format','listing-language','listing-sidebar','listing-author-title','listing-title','listing-date','listing-author','listing-arxiv','listing-github','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-sportrxiv','listing-doi','listing-Status','listing-slug','listing-status','listing-details','listing-tag','listing-tags','listing-online',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-details"],
     };
@@ -100,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../img/stat_icon.png" alt="" class="navbar-logo">
     </a>
@@ -110,48 +117,54 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Edward Gunning</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page">Research</a>
+    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching/index.html">Teaching</a>
+    <a class="nav-link" href="../teaching/index.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv/index.html">CV</a>
+    <a class="nav-link" href="../cv/index.html"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/gunning_edward"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/gunning_edward"> <i class="bi bi-twitter" role="img">
 </i> 
- </a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://scholar.google.com/citations?hl=en&amp;user=R9NHmz4AAAAJ"><i class="ai  ai-google-scholar ai-lg"></i></a>
+    <a class="nav-link" href="https://scholar.google.com/citations?hl=en&amp;user=R9NHmz4AAAAJ"> 
+<span class="menu-text"><i class="ai  ai-google-scholar ai-lg"></i></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/edwardgunning1/"><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/edwardgunning1/"> <i class="bi bi-linkedin" role="img">
 </i> 
- </a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/edwardgunning"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/edwardgunning"> <i class="bi bi-github" role="img">
 </i> 
- </a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:edward.gunning@ul.ie"><i class="bi bi-envelope" role="img" aria-label="email">
+    <a class="nav-link" href="mailto:edward.gunning@ul.ie"> <i class="bi bi-envelope" role="img" aria-label="email">
 </i> 
- </a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -160,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Type</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Articles">Articles <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PhD thesis">PhD thesis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Working papers">Working papers <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Type</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Articles">Articles <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Books">Books <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PhD thesis">PhD thesis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Working papers">Working papers <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -183,60 +196,219 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <ol class="list" reversed="">
-    <li data-index="0" data-categories="Working papers" data-listing-date-sort="1719460800000" data-listing-file-modified-sort="1719457753638" data-listing-reading-time-sort="1.28">
+  
+    <li data-index="0" data-categories="Books" data-listing-date-sort="1728428400000" data-listing-file-modified-sort="1724853537798" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+      <a href="../projects/review-book/index.html">
+        <span class="listing-author"><b>Edward Gunning</b>, John Warmenhoven, Andrew J. Harrison, Norma Bargary</span>
+        (<span class="listing-date">2024</span>)
+        <span class="listing-title">Functional Data Analysis in Biomechanics</span>.
+        
+          <span class="listing-details"><em>SpringerBriefs</em>, <b>ISBN</b> 978-3-031-68862-1</span>.
+        
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://link.springer.com/book/9783031688614" class="badge badge-small badge-blue">Online</a>
+      
+      
+      
+      <a href="http://github.com/FAST-ULxNUIG/SpringerBriefs" class="badge badge-small badge-green"><i class="bi bi-github"></i></a>
+      
+      
+    </li>
+  
+    <li data-index="1" data-categories="Working papers" data-listing-date-sort="1723762800000" data-listing-file-modified-sort="1724850321055" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269">
+      <a href="../projects/multivariate-multilevel/index.html">
+        <span class="listing-author"><b>Edward Gunning</b>, Steven Golovkine, Andrew J. Simpkin, Aoife Burke, Sarah Dillon, Shane Gore, Kieran Moran, Siobhan O'Connor, Enda Whyte, Norma Bargary</span>
+        (<span class="listing-date">2024</span>)
+        <span class="listing-title">A Multivariate Multilevel Longitudinal Functional Model for Repeatedly Observed Human Movement Data</span>.
+        
+      </a>
+      
+      
+      
+      
+      <a href="https://arxiv.org/abs/2408.08481" class="badge badge-small badge-red">arXiv</a>
+      
+      
+      
+      
+      
+      
+      <a href="http://github.com/edwardgunning/RISC1-longitudinal-manuscript-code" class="badge badge-small badge-green"><i class="bi bi-github"></i></a>
+      
+      
+    </li>
+  
+    <li data-index="2" data-categories="Working papers" data-listing-date-sort="1723676400000" data-listing-file-modified-sort="1724850145457" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
+      <a href="../projects/analysing-kinematic/index.html">
+        <span class="listing-author"><b>Edward Gunning</b>, Steven Golovkine, Andrew J. Simpkin, Aoife Burke, Sarah Dillon, Shane Gore, Kieran Moran, Siobhan O'Connor, Enda Whyte, Norma Bargary</span>
+        (<span class="listing-date">2024</span>)
+        <span class="listing-title">Analysing kinematic data from recreational runners using functional data analysis</span>.
+        
+      </a>
+      
+      
+      
+      
+      <a href="https://arxiv.org/abs/2408.082" class="badge badge-small badge-red">arXiv</a>
+      
+      
+      
+      
+      
+      
+      <a href="http://github.com/edwardgunning/RISC1-fda-manuscript-01-code" class="badge badge-small badge-green"><i class="bi bi-github"></i></a>
+      
+      
+    </li>
+  
+    <li data-index="3" data-categories="Working papers" data-listing-date-sort="1719442800000" data-listing-file-modified-sort="1724849166797" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="256">
       <a href="../projects/understanding-of-pda/index.html">
         <span class="listing-author"><b>Edward Gunning</b>, Giles Hooker</span>
         (<span class="listing-date">2024</span>)
         <span class="listing-title">An Understanding of Principal Differential Analysis</span>.
+        
       </a>
+      
+      
+      
+      
       <a href="https://arxiv.org/abs/2406.18484" class="badge badge-small badge-red">arXiv</a>
+      
+      
+      
+      
+      
+      
       <a href="http://github.com/edwardgunning/UnderstandingOfPDAManuscript" class="badge badge-small badge-green"><i class="bi bi-github"></i></a>
+      
+      
     </li>
-    <li data-index="1" data-categories="PhD thesis" data-listing-date-sort="1700179200000" data-listing-file-modified-sort="1704465386230" data-listing-reading-time-sort="2.355">
+  
+    <li data-index="4" data-categories="PhD thesis" data-listing-date-sort="1700179200000" data-listing-file-modified-sort="1724849166796" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="471">
       <a href="../projects/phd/index.html">
         <span class="listing-author"><b>Edward Gunning</b></span>
         (<span class="listing-date">2023</span>)
         <span class="listing-title">Statistical Modelling of Second-Generation Functional Data with Application in Biomechanics and Human Movement Research</span>.
+        
           <span class="listing-details">PhD thesis, University of Limerick</span>.
+        
       </a>
+      
       <a href="https://doi.org/10.34961/researchrepository-ul.24948066.v1" class="badge badge-small badge-blue">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     </li>
-    <li data-index="2" data-categories="Working papers" data-listing-date-sort="1699419600000" data-listing-file-modified-sort="1700074745301" data-listing-reading-time-sort="0.515">
+  
+    <li data-index="5" data-categories="Working papers" data-listing-date-sort="1699401600000" data-listing-file-modified-sort="1724849166797" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
       <a href="../projects/variance-mfpca/index.html">
         <span class="listing-author">Steven Golovkine, <b>Edward Gunning</b>, Andrew J. Simpkin, Norma Bargary</span>
         (<span class="listing-date">2023</span>)
         <span class="listing-title">On the estimation of the number of components in multivariate functional principal component analysis</span>.
+        
       </a>
+      
+      
+      
+      
       <a href="https://arxiv.org/abs/2311.0454" class="badge badge-small badge-red">arXiv</a>
+      
+      
+      
+      
+      
+      
       <a href="http://github.com/FAST-ULxNUIG/variance_mfpca" class="badge badge-small badge-green"><i class="bi bi-github"></i></a>
+      
+      
     </li>
-    <li data-index="3" data-categories="Working papers" data-listing-date-sort="1687406400000" data-listing-file-modified-sort="1700074506397" data-listing-reading-time-sort="0.685">
+  
+    <li data-index="6" data-categories="Working papers" data-listing-date-sort="1687388400000" data-listing-file-modified-sort="1724849166796" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
       <a href="../projects/gram-matrix/index.html">
         <span class="listing-author">Steven Golovkine, <b>Edward Gunning</b>, Andrew J. Simpkin, Norma Bargary</span>
         (<span class="listing-date">2023</span>)
         <span class="listing-title">On the use of the Gram matrix for multivariate functional principal components analysis</span>.
+        
       </a>
+      
+      
+      
+      
       <a href="https://arxiv.org/abs/2306.12949" class="badge badge-small badge-red">arXiv</a>
+      
+      
+      
+      
+      
+      
       <a href="http://github.com/FAST-ULxNUIG/geom_mfpca" class="badge badge-small badge-green"><i class="bi bi-github"></i></a>
+      
+      
     </li>
-    <li data-index="4" data-categories="Articles" data-listing-date-sort="1613106000000" data-listing-file-modified-sort="1700067290414" data-listing-reading-time-sort="0.645">
+  
+    <li data-index="7" data-categories="Articles" data-listing-date-sort="1613088000000" data-listing-file-modified-sort="1724849166796" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
       <a href="../projects/pca-of-waveforms/index.html">
         <span class="listing-author">John Warmenhoven, Norma Bargary, Dominik Liebl, Andrew J. Harrison, Mark A. Robinson, <b>Edward Gunning</b>, Giles Hooker</span>
         (<span class="listing-date">2021</span>)
         <span class="listing-title">PCA of waveforms and functional PCA: A primer for biomechanics</span>.
+        
           <span class="listing-details"><em>Journal of Biomechanics</em>, <b>116</b>, 110106</span>.
+        
       </a>
+      
       <a href="https://doi.org/10.1016/j.jbiomech.2020.110106" class="badge badge-small badge-blue">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     </li>
-    <li data-index="5" data-categories="Working papers" data-listing-date-sort="1597896000000" data-listing-file-modified-sort="1700124425351" data-listing-reading-time-sort="0.515">
+  
+    <li data-index="8" data-categories="Working papers" data-listing-date-sort="1597878000000" data-listing-file-modified-sort="1724849166796" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
       <a href="../projects/synthetic-data/index.html">
         <span class="listing-author">John Warmenhoven, Andrew Harrison, Daniel Quintana, Giles Hooker, <b>Edward Gunning</b>, Norma Bargary</span>
         (<span class="listing-date">2020</span>)
         <span class="listing-title">Unlocking sports medicine research data while maintaining participant privacy via synthetic datasets</span>.
+        
       </a>
+      
       <a href="https://doi.org/10.31236/osf.io/f3rz7" class="badge badge-small badge-blue">DOI</a>
+      
+      
+      
+      
+      
       <a href="https://osf.io/preprints/sportrxiv/f3rz7" class="badge badge-small badge-navy">SportRxiv</a>
+      
+      
+      
+      
+      
+      
+      
     </li>
+  
 </ol>
 
 <div class="listing-no-matching d-none">
@@ -270,9 +442,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -284,17 +470,51 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -304,8 +524,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -317,36 +546,296 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><span class="faux-block">© 2023 Edward Gunning CC BY-SA 4.0</span></div>   
-      <div class="nav-footer-center"><span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span></div>
-    <div class="nav-footer-right"><span class="faux-block"><a href="https://github.com/edwardgunning/edwardgunning.github.io">View source on GitHub</a></span></div>
+    <div class="nav-footer-left">
+<p><span class="faux-block">© 2023 Edward Gunning CC BY-SA 4.0</span></p>
+</div>   
+    <div class="nav-footer-center">
+<p><span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span></p>
+</div>
+    <div class="nav-footer-right">
+<p><span class="faux-block"><a href="https://github.com/edwardgunning/edwardgunning.github.io">View source on GitHub</a></span></p>
+</div>
   </div>
 </footer>
 

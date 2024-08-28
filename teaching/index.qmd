@@ -8,7 +8,9 @@ I have a strong interest in teaching mathematics, (bio)statistics and data scien
 
 ### Short Courses
 
-* [**ISBS 2024**](https://www.isbs2024.com/): I am delivering a pre-conference workshop on **Functional Data Analysis in Sports Biomechanics** at [ISBS 2024](https://www.isbs2024.com/) on July $15$th $2024$ in Salzburg with Prof. Drew Harrison. The materials are available at our [workshop website](https://github.com/edwardgunning/ISBS-Short-Course).
+* [**ISBS 2024**](https://www.isbs2024.com/): On July $15$th $2024$, I delivered a pre-conference workshop on **Functional Data Analysis in Sports Biomechanics** at [ISBS 2024](https://www.isbs2024.com/) on in Salzburg with Prof. Drew Harrison. The materials are available at our [workshop website](https://github.com/edwardgunning/ISBS-Short-Course).
+
+![Drew and I delivering our workshop at ISBS.](isbs-course.png)
 
 ---------------------------------------------------------
 

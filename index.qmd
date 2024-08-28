@@ -24,6 +24,8 @@ about:
 ::: {#about-block}
 :::
 
+
+
 # About Me
 
 I am a postdoctoral researcher at the Department of Biostatistics, Epidemiology and Informatics in the Perelman School of Medicine at the University of Pennsylvania. I am mentored by [Prof. Jeffrey Morris](https://www.dbei.med.upenn.edu/bio/jeffrey-s-morris-phd) and [Prof. Giles Hooker](https://www.gileshooker.com/). My postdoctoral research is in the development of functional data analysis methodology, driven by applications in the biomedical sciences (e.g., wearable device data, radiomic data and climate data).
@@ -31,6 +33,15 @@ I am a postdoctoral researcher at the Department of Biostatistics, Epidemiology 
 I completed my Ph.D. in the Dept. of Mathematics and Statistics at the [University of Limerick](https://www.ul.ie/), Ireland, where I was part of the [SFI Centre for Research Training in Foundations of Data Science](https://www.data-science.ie/).
 I was advised by [Prof. Norma Bargary](https://www.ul.ie/research/dr-norma-bargary) and my thesis was titled 'Statistical Modelling of Second-Generation Functional Data with Application in Biomechanics and Human Movement Research'.
 
+# News
+
+* [**FDA in Biomechanics Book**](https://link.springer.com/book/9783031688614): Our SpringerBriefs book *"Functional Data Analysis in Biomechanics"* is <u>in press</u> and should be published very soon! Check out the [website](https://link.springer.com/book/9783031688614) or [GitHub repository](https://github.com/FAST-ULxNUIG/SpringerBriefs/tree/main).
+
+![The front cover of our upcoming book.](projects/review-book/book_frontcover.png)
+
+* [**ISBS 2024**](https://www.isbs2024.com/): On July $15$th $2024$, I delivered a pre-conference workshop on **Functional Data Analysis in Sports Biomechanics** at [ISBS 2024](https://www.isbs2024.com/) on in Salzburg with Prof. Drew Harrison. The materials are available at our [workshop website](https://github.com/edwardgunning/ISBS-Short-Course).
+
+![Drew and I delivering our workshop at ISBS.](teaching/isbs-course.png)
 <!-- # Research -->
 
 <!-- * Add research interests here. -->
