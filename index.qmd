@@ -35,6 +35,10 @@ I was advised by [Prof. Norma Bargary](https://www.ul.ie/research/dr-norma-barga
 
 # News
 
+* **Visit to University Technology Sydney (UTS)**: On November 21st and 22nd 2024, I visited the [School of Sport, Exercise and Rehabilitation](https://www.uts.edu.au/about/faculty-health/school-sport-exercise-and-rehabilitation) at UTS. I delivered a one-day [workshop on Functional Data Analysis for Sports Biomechanics](https://github.com/edwardgunning/UTS-FDA-Short-Course) and met with faculty, staff and students from across Australia (and beyond!) who are doing interesting work in sports biomechanics, exercise physiology and skill acquisition.
+
+![](teaching/uts-course.JPG)
+
 * [**FDA in Biomechanics Book**](https://link.springer.com/book/9783031688614): Our SpringerBriefs book *"Functional Data Analysis in Biomechanics"* is <u>in press</u> and should be published very soon! Check out the [website](https://link.springer.com/book/9783031688614) or [GitHub repository](https://github.com/FAST-ULxNUIG/SpringerBriefs/tree/main).
 
 ![The front cover of our upcoming book.](projects/review-book/book_frontcover.png)

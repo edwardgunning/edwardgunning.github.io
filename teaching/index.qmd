@@ -6,7 +6,11 @@ I have a strong interest in teaching mathematics, (bio)statistics and data scien
 
 ---------------------------------------------------------
 
-### Short Courses
+### Short Courses/ Workshops
+
+* **UTS 2024**: I delivered a one-day workshop on Functional Data Analysis for Sports Biomechanics at the [School of Sport, Exercise and Rehabilitation](https://www.uts.edu.au/about/faculty-health/school-sport-exercise-and-rehabilitation) in the University of Technology Sydney (UTS). The materials are available at our [workshop website](https://github.com/edwardgunning/UTS-FDA-Short-Course).
+
+![Delivering the workshop at UTS.](uts-course.JPG)
 
 * [**ISBS 2024**](https://www.isbs2024.com/): On July $15$th $2024$, I delivered a pre-conference workshop on **Functional Data Analysis in Sports Biomechanics** at [ISBS 2024](https://www.isbs2024.com/) on in Salzburg with Prof. Drew Harrison. The materials are available at our [workshop website](https://github.com/edwardgunning/ISBS-Short-Course).
 
