@@ -2,12 +2,12 @@
   {
     "listing": "/projects/index.html",
     "items": [
+      "/projects/variance-mfpca/index.html",
       "/projects/review-book/index.html",
       "/projects/multivariate-multilevel/index.html",
       "/projects/analysing-kinematic/index.html",
       "/projects/understanding-of-pda/index.html",
       "/projects/phd/index.html",
-      "/projects/variance-mfpca/index.html",
       "/projects/gram-matrix/index.html",
       "/projects/pca-of-waveforms/index.html",
       "/projects/synthetic-data/index.html"
