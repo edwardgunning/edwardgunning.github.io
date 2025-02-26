@@ -5,6 +5,7 @@ author:  Steven Golovkine, <b>Edward Gunning</b>, Andrew J. Simpkin, Norma Barga
 arxiv: 2311.04540
 github: FAST-ULxNUIG/variance_mfpca
 categories: Articles
+details: <em>Communications in Statistics - Simulation and Computation</em>, 1–9
 doi: 10.1080/03610918.2025.2459862
 ---
 
