@@ -35,6 +35,14 @@ I was advised by [Prof. Norma Bargary](https://www.ul.ie/research/dr-norma-barga
 
 # News
 
+* **Book Launch at the University of Limerick**: On April 16th 2025 we launched our book *"Functional Data Analysis in Biomechanics"* at the University of Limerick. We were joined by colleagues, family and friends for a fantastic evening. I also delivered a seminar at the Department of Mathematics and Statistics on April 17th.
+
+![](teaching/book-launch.JPG)
+
+* **ISBS Mid-Year Symposium**: On April 8th 2025 Prof. Drew Harrison and I delivered an online workshop on *Preparing Biomechanical Data for Functional Data Analysis*. The materials are publicly available at our [GitHub repository](https://github.com/edwardgunning/ISBS-FDA-data-preparation-workshop). A recording of the workshop is available to ISBS members to view [here](https://isbs.org/conferences/videos/symposium25-recordings).
+
+![](teaching/isbs-mid-year.jpg)
+
 * **Visit to University Technology Sydney (UTS)**: On November 21st and 22nd 2024, I visited the [School of Sport, Exercise and Rehabilitation](https://www.uts.edu.au/about/faculty-health/school-sport-exercise-and-rehabilitation) at UTS. I delivered a one-day [workshop on Functional Data Analysis for Sports Biomechanics](https://github.com/edwardgunning/UTS-FDA-Short-Course) and met with faculty, staff and students from across Australia (and beyond!) who are doing interesting work in sports biomechanics, exercise physiology and skill acquisition.
 
 ![](teaching/uts-course.JPG)

@@ -16,6 +16,10 @@ I have a strong interest in teaching mathematics, (bio)statistics and data scien
 
 ![Drew and I delivering our workshop at ISBS.](isbs-course.png)
 
+* **ISBS Mid-Year Symposium**: On April 8th 2025 Prof. Drew Harrison and I delivered an online workshop on *Preparing Biomechanical Data for Functional Data Analysis*. The materials are publicly available at our [GitHub repository](https://github.com/edwardgunning/ISBS-FDA-data-preparation-workshop). A recording of the workshop is available to ISBS members to view [here](https://isbs.org/conferences/videos/symposium25-recordings).
+
+![Flyer for the mid-year sympoisum.](isbs-mid-year.jpg)
+
 ---------------------------------------------------------
 
 ### Lecturer
