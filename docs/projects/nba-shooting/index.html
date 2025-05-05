@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Edward Gunning">
-<meta name="dcterms.date" content="2023-11-16">
+<meta name="author" content="Steven Golovkine, Edward Gunning">
+<meta name="dcterms.date" content="2025-04-30">
 
-<title>Statistical Modelling of Second-Generation Functional Data with Application in Biomechanics and Human Movement Research – Edward Gunning</title>
+<title>Is Stephen Curry really a guard? New perspective on players typology using functional data analysis – Edward Gunning</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -148,9 +148,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Statistical Modelling of Second-Generation Functional Data with Application in Biomechanics and Human Movement Research</h1>
+<h1 class="title">Is Stephen Curry really a guard? New perspective on players typology using functional data analysis</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">PhD thesis</div>
+    <div class="quarto-category">Working papers</div>
   </div>
   </div>
 
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-            <p><b>Edward Gunning</b> 
+            <p>Steven Golovkine, <b>Edward Gunning</b> 
       </p>
           </div>
   </div>
@@ -169,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 16, 2023</p>
+      <p class="date">April 30, 2025</p>
     </div>
   </div>
   
@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title-meta-heading">Publication details</div>
     <div class="quarto-title-meta-contents">
       <p class="date">
-                PhD thesis, University of Limerick
+                Working paper
               </p>
     </div>
   </div>
@@ -186,12 +186,12 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title-meta-heading">Links</div>
     <div class="quarto-title-meta-contents">
       <p class="date" style="color: #fff !important;">
-            <a href="https://doi.org/10.34961/researchrepository-ul.24948066.v1" class="badge badge badge-blue">DOI</a>
-                                          
+                              <a href="https://arxiv.org/abs/2504.21761" class="badge badge badge-red">arXiv</a>
+                        
+      
+      <a href="http://github.com/StevenGolovkine/shooting_nba_fda" class="badge badge badge-green"><i class="bi bi-github"></i></a>
       
       
-      
-      <span data-doi="10.34961/researchrepository-ul.24948066.v1" data-hide-no-mentions="true" class="altmetric-embed"></span>
       
       </p>
     </div>
@@ -204,10 +204,7 @@ ul.task-list li input[type="checkbox"] {
 <p>&nbsp;</p>
 </header>
 
-<p>In recent years, the data being collected in human movement biomechanics have increased in size and complexity. Improvements in data acquisition and processing mean that more data can be recorded and extracted for each individual, producing datasets of increased volume that are multivariate in nature and exhibit complex dependence structures due to repeated measurements.</p>
-<p>Functional data analysis is a branch of statistics that is well suited to the analysis of continuous biomechanical data, e.g., kinematics or kinetics that are recorded throughout a movement, because it treats the measured data streams as smooth, time-varying functions. Traditional functional data analysis tools have been developed for independent, univariate samples of functional data, so they are not flexible enough to fully leverage the richness of modern biomechanical datasets. There is a growing need to adapt and extend these tools to modern data structures and characteristics. To address this challenge, this thesis develops new statistical approaches for structured functional data, as motivated by a large study on running-related injuries, where kinematic data from recreational runners were captured during a treadmill run with the goal of understanding running technique and its links to injury. The motivating biomechanical dataset is rich in size and structure as it contains repeated measurements of multiple kinematic variables from a large number of individuals. Thus, it presents methodological and computational challenges and facilitates the development of novel statistical methodology that is generally applicable in a variety of fields.</p>
-<p>The first challenge addressed in this thesis is the development of multivariate functional mixed effects modelling techniques, to allow the kinematic data from multiple body parts (e.g., hip and knee) to be analysed simultaneously. The mixed effects modelling framework readily incorporates covariate information and facilitates appropriate modelling of the complex dependence structure between observations from each individual (i.e., each individual has multiple repetitions of the movement/strides, measurements are made on both sides of the body). This work is divided into two sequential contributions. Firstly, a multivariate functional mixed effects model is developed for a subset of the motivating dataset, which contains average hip angle and knee angle curves for each individual on either side of the body. As the second contribution, the modelling framework is extended to handle the full collection of strides in the motivating dataset, resulting in a multivariate multilevel longitudinal functional model which uses a longitudinal functional data analysis approach to capture temporal dependence among the adjacent strides.</p>
-<p>The second challenge addressed in this thesis is the estimation of continuous-time ordinary differential equations from functional data. A re-formulation of Principal Differential Analysis, a classical technique for estimating differential equations from functional data, is developed. The new formulation is based on a generative statistical model, providing a better understanding of the technique from a statistical perspective and broadening its applicability. The methodology is demonstrated on simulated data from ordinary differential equation models and on a subset of kinematic data from the motivating dataset for this thesis.</p>
+<p>We present a novel representation of NBA players’ shooting patterns based on Functional Data Analysis (FDA). Each player’s charts of made and missed shots are treated as smooth functional data defined over a two-dimensional domain corresponding to the offensive half-court. This continuous representation enables a parsimonious multivariate functional principal components analysis (MFPCA) decomposition, producing a set of common principal component functions that capture the primary modes of variability in shooting patterns, along with player-specific scores that quantify individual deviations from the average behavior. We first interpret the principal component functions to characterize the main sources of variation in shooting tendencies. We then apply -medoids clustering to the principal component scores to construct a data-driven taxonomy of players. Comparing our empirical clusters to conventional NBA position labels reveals low agreement, suggesting that our shooting-pattern representation might capture aspects of playing style not fully reflected in official designations. The proposed methodology provides a flexible, interpretable, and continuous framework for analyzing player tendencies, with potential applications in coaching, scouting, and historical player or match comparisons.</p>
 
 
 

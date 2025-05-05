@@ -2,6 +2,7 @@
   {
     "listing": "/projects/index.html",
     "items": [
+      "/projects/nba-shooting/index.html",
       "/projects/analysing-kinematic/index.html",
       "/projects/variance-mfpca/index.html",
       "/projects/review-book/index.html",
