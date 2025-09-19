@@ -35,7 +35,7 @@ I was advised by [Prof. Norma Bargary](https://www.ul.ie/research/dr-norma-barga
 
 # News
 
-* **JHU Seminar/ Penn FDA Reading Group Slides**: [](docs/slides/Non_Linear_FMM_Seminar-1.pdf) 
+* **September 2025: JHU Seminar/ Penn FDA Reading Group [Slides](docs/slides/Non_Linear_FMM_Seminar_WIT.pdf)**
 
 * **Book Launch at the University of Limerick**: On April 16th 2025 we launched our book *"Functional Data Analysis in Biomechanics"* at the University of Limerick. We were joined by colleagues, family and friends for a fantastic evening. I also delivered a seminar at the Department of Mathematics and Statistics on April 17th.
 
